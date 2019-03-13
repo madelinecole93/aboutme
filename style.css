@@ -1,4 +1,33 @@
 
+p {
+
+	margin: 5% 12% 5% 12%; 
+	text-align: justify;
+	color: black;
+	line-height: 1.5em; 
+	font-size: 16px;
+
+	min-width: 500px; 
+}
+
+a {
+	color: #16a9bc;
+}
+
+a:hover {
+	color: maroon;
+}
+
+img {
+	float: left;
+	padding: 0% 3% 0% 3%;
+	
+}
+
+ul {
+	list-style-type: none; 
+}
+
 
 
 .header {
@@ -16,6 +45,8 @@
 	padding: 3%;
 	margin: 0 auto; 
 	width: 90%;
+	min-width: 500px; 
+
 	
 		
 }
@@ -27,33 +58,49 @@
 	margin: 0 auto;
 	width: 100%;
 	background: #d3dae5; 
+	min-width: 500px; 
 
 
 }
 
 
 
-ul {
-	font-size: 20px;
-	text-align: center; 
-	
-	border: 0px solid black;
-	border-radius: 15px; 
-	background: white;
-	padding: 1% 5% 1% 5%;
-	margin: 25 auto 25 auto; 
-	overflow: auto; 
-	width: 65%;
-	
 
+
+
+#entire-menu .submenu {
+	display: none; 
+	position: absolute;
+	font-size: 100px;
+}
+
+.submenu {
+	display: none; 
+	}
+
+#entire-menu .submenu li {
+	display: block; 
+}
+
+
+#menu li {
+	float: left;
+	position: relative;
 
 }
 
-li {
-
-	display: inline;
-	
+#menu li:hover .submenu {
+	display: block; 
 }
+
+
+
+
+
+
+
+
+
 
 #title {
 	font-size: 22px;
@@ -67,29 +114,19 @@ li {
 
 }
 
-p {
 
-	margin: 5% 12% 5% 12%; 
-	text-align: justify;
-	color: black;
-	line-height: 1.5em; 
-	font-size: 16px;
-}
 
-a {
-	color: #16a9bc;
-}
 
-a:hover {
-	color: maroon;
-}
 
-img {
-	float: left;
-/*	padding: 0px 20px 20px 20px;*/
-padding: 0% 3% 0% 3%;
-	
-}
+
+
+
+
+ 
+
+
+
+
 
 
 
